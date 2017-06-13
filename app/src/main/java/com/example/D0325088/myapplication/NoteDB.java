@@ -1,4 +1,4 @@
-package com.example.huei_lian.myapplication;
+package com.example.D0325088.myapplication;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -6,9 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
 
-/**
- * Created by Huei-Lian on 2017/6/9.
- */
+
 
 public class NoteDB {
     final static String NOTETABLE = "notetable";

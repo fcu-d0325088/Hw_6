@@ -4,28 +4,28 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="姓名"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:text="Title" />
 
     <EditText
+        android:id="@+id/et_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/student" />
+        android:inputType="textPersonName" />
 
     <TextView
-        android:text="學號"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:text="Details" />
 
     <EditText
+        android:id="@+id/et_body"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/sclnumber" />
+        android:inputType="textPersonName" />
 </LinearLayout>

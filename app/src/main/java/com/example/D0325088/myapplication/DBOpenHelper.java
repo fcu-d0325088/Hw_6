@@ -1,16 +1,14 @@
-package com.example.huei_lian.myapplication;
+package com.example.D0325088.myapplication;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by Huei-Lian on 2017/6/9.
- */
+
 
 public class DBOpenHelper extends SQLiteOpenHelper {
     public DBOpenHelper(Context context) {
-        super(context, "hk6.db", null, 2);
+        super(context, "hw6_note.db", null, 2);
     }
 
     @Override

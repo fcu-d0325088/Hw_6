@@ -1,4 +1,4 @@
-package com.example.huei_lian.myapplication;
+package com.example.D0325088.myapplication;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -9,9 +9,6 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-/**
- * Created by Huei-Lian on 2017/6/9.
- */
 
 public class NoteEditor extends AppCompatActivity {
 
@@ -24,8 +21,8 @@ public class NoteEditor extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_note_editor);
-        et_title = (EditText)findViewById(R.id.student);
-        et_body = (EditText)findViewById(R.id.sclnumber);
+        et_title = (EditText)findViewById(R.id.et_title);
+        et_body = (EditText)findViewById(R.id.et_body);
 
         Intent intent = getIntent();
         notepos = intent.getIntExtra("NOTEPOS", -1);

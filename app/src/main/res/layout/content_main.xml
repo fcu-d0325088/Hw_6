@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.huei_lian.myapplication.MainActivity"
+    tools:context="com.example.D0325088.myapplication.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <LinearLayout
@@ -19,14 +19,14 @@
         android:layout_height="517dp">
 
         <Button
-            android:text="ADD A DATA"
+            android:id="@+id/btn_addnote"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button" />
+            android:text="ADD A NOTE" />
 
         <ListView
+            android:id="@+id/lv_notes"
             android:layout_width="wrap_content"
-            android:layout_height="459dp"
-            android:id="@+id/studentable" />
+            android:layout_height="459dp" />
     </LinearLayout>
 </RelativeLayout>
